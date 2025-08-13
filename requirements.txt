@@ -1,0 +1,10 @@
+streamlit
+ultralytics
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cpu
+pillow
+numpy
+pandas
+opencv-python-headless
