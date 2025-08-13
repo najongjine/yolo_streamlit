@@ -13,3 +13,5 @@ uv run python -V
 uv pip install lmstudio
 
 uv run python predict.py
+
+uv run streamlit run predict_streamlit.py
