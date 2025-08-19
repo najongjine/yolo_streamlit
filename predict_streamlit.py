@@ -15,7 +15,7 @@ st.title("YOLO Inference (Ultralytics) – Streamlit")
 # Sidebar: settings
 # -----------------------------
 st.sidebar.header("Settings")
-model_path = "yolo11n_sz640_lr0.001_mos0.0.pt"
+model_path = "plant_detect_disease_416_221018_dataset_68percent.pt"
 imgsz = st.sidebar.slider("imgsz (inference size)", min_value=320, max_value=1280, step=32, value=640)
 conf = st.sidebar.slider("conf (confidence threshold)", min_value=0.05, max_value=0.95, step=0.05, value=0.5)
 device_choice = st.sidebar.selectbox("device", options=["cpu", "cuda:0"], index=0)
